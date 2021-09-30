@@ -1,0 +1,75 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+body {
+  margin: 0 auto;
+  padding: 32px;
+
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-flat {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 15px;
+  width: 25%;
+
+}
+
+
+.card-flat > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-flat h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-flat p {
+  font-size: 14px;
+  opacity: .8;
+  margin: 0;
+}
+
+
+.card-flat .card-flat-infos {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+
+.card-body {
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 15px;
+  width: 50%;
+  justify-content: center;
+}
+
+
+
+
+
+
+.card-body > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
